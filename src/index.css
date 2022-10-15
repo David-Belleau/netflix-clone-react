@@ -1,0 +1,17 @@
+/* GENERAL */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Netflix Sans', 'Futura', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  background-color: #111;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
