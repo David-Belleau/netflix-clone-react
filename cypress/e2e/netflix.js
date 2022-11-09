@@ -43,7 +43,7 @@ describe('netflix e2e', () => {
 
     cy.findByRole('textbox', {name: /search/i}).type('jumanji{enter}')
     cy.findByRole('listitem', {name: /movie/i}).within(() => {
-      cy.findAllByRole('link').should('have.length', 5)
+      cy.findAllByRole('link').should('have.length', 6)
     })
     cy.findByRole('listitem', {name: /tv/i}).within(() => {
       cy.findAllByRole('link').should('have.length', 1)
