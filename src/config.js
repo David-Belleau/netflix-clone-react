@@ -15,9 +15,9 @@ export {
     API_KEY,
     lang,
     imagePath,
-    imagePathOriginal, 
-    imagePath400, 
-    TYPE_TV, 
-    TYPE_MOVIE, 
+    imagePathOriginal,
+    imagePath400,
+    TYPE_TV,
+    TYPE_MOVIE,
     localStorageTokenKey
 }
